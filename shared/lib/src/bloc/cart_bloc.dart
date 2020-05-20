@@ -36,6 +36,8 @@ class CartBloc {
     });
   }
 
+  
+
   Sink<CartAddition> get cartAddition => _cartAdditionController.sink;
 
   Stream<int> get itemCount => _itemCount.stream;
